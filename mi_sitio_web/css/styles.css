@@ -1,0 +1,210 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #23da94;
+  color: #333;
+}
+
+.navbar {
+  background-color: #111;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  padding: 16px 30px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #7c7c7c;
+}
+
+.container {
+  padding: 100px 20px 20px; 
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Inicio (index.html) */
+.container.index {
+  background-color: #ffe4b2; 
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container.index h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+  color: #ff6f61;
+}
+
+.container.index p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.container.index img {
+  max-width: 80%;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Acerca de mí (about.html) */
+.container.about {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  background-color: #cce7ff; 
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.container.about img {
+  flex: 1;
+  max-width: 40%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container.about div {
+  flex: 2;
+}
+
+.container.about h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2em;
+  color: #003d99;
+}
+
+.container.about p {
+  font-size: 1.1em;
+}
+
+/* Mi Carrera (degree.html) */
+.container.degree {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+  align-items: center;
+  background-color: #ffb3b3; 
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.container.degree img {
+  flex: 100;
+  max-width: 2000%;
+  border-radius: 10000px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container.degree div {
+  flex: 2;
+  text-align: justify;
+}
+
+.container.degree h1 {
+  font-family: 'Verdana', sans-serif;
+  font-size: 2em;
+  color: #b30000;
+}
+
+.container.degree p {
+  font-size: 1.1em;
+}
+
+/* FII (fii.html) */
+.container.fii {
+  background-color: #d1ffd1; 
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container.fii h1 {
+  font-family: 'Tahoma', sans-serif;
+  font-size: 2.2em;
+  color: #007700;
+}
+
+.container.fii p {
+  font-size: 1.1em;
+}
+
+.container.fii img {
+  max-width: 80%;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+/* IA (topic.html) */
+.container.topic {
+  background-color: #f0e68c; 
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container.topic h1 {
+  font-family: 'Courier New', monospace;
+  font-size: 2.5em;
+  color: #b8860b;
+}
+
+.container.topic p {
+  font-size: 1.1em;
+}
+
+.container.topic img {
+  max-width: 80%;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contacto (contact.html) */
+.container.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  background-color: #e6e6fa; 
+  border-radius: 180px;
+  padding: 250px;
+}
+
+.container.contact img {
+  max-width: 90%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container.contact div {
+  text-align: left;
+}
+
+.container.contact h1 {
+  font-family: 'Impact', sans-serif;
+  font-size: 4em;
+  color: #4b0082;
+}
+
+.container.contact p {
+  font-size: 1.1em;
+}
