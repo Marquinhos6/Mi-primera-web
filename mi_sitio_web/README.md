@@ -9,24 +9,21 @@ Este proyecto es un sitio web personal diseñado para mostrar los conocimientos 
 El sitio web está compuesto por las siguientes secciones:
 
 ### 1. **Página principal (`index.html`)**
+   - Bienvenida a la web.
    - Proporciona una vista general del sitio web.
-   - Incluye enlaces para navegar a otras páginas.
 
 ### 2. **Acerca de mí (`public/about.html`)**
-   - Breve descripción personal.
+   - Breve descripción personal (curriculum).
    - Imágenes y enlaces a redes sociales.
 
 ### 3. **Mi carrera (`public/degree.html`)**
    - Detalles sobre el grado en Ingeniería Informática.
-   - Lista de materias cubiertas en el programa.
 
 ### 4. **Fundamentos de la Ingeniería Informática (`public/fii.html`)**
-   - Detalle sobre esta materia específica.
-   - Temas cubiertos y aprendizajes clave. 
+   - Detalle específicos sobre la asignatura de fundamentos de ingeniería informatica.
 
 ### 5. **Tema de interés (`public/topic.html`)**
    - Información sobre un tema de interés personal: Inteligencia Artificial.
-
 
 ### 6. **Contacto (`public/contact.html`)**
    - Forma de contactarme.

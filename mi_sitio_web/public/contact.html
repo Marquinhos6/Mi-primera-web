@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi web</title>
+  <title>Contacto</title>
   <link rel="stylesheet" href="../css/styles.css">
-</head><link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+</head>
 <body>
   <div class="navbar">
     <a href="../index.html">Inicio</a>
@@ -18,8 +17,20 @@
     <a href="net.html">Otras webs</a>
   </div>
   <div class="container contact">
-    <h1>Contacto</h1>
-    <p>Para contactarme, envía un correo a <a href="mailto:9406812@alumnos.ufv.es"> 9406812@alumnos.ufv.es</a></p>
+    <form>
+      <h1>Contacto</h1>
+      <label for="name">Nombre:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Correo Electrónico:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="message">Mensaje:</label><br>
+      <textarea id="message" name="message" rows="4"></textarea><br><br>
+      <button type="submit">Enviar</button>
+      
+    </form>
+    <img src="../imagenes/ufv.jpg" alt="Imagen de contacto">
+
+    <a href="mailto:9406812@alumnos.ufv.es">9406812@alumnos.ufv.es</a>
   </div>
   <footer>
     <p>&copy; 2024 Marcos Rojas</p>
